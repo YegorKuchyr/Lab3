@@ -24,3 +24,4 @@ jobs:
         ./configure
         make
         make deb
+        dpkg-deb --build myproject
