@@ -3,4 +3,4 @@ main_SOURCES = main.cpp funcA.cpp funcA.h
 
 deb:
 
-	dpkg-deb --build myproject
+	dpkg-buildpackage -us -uc -b
