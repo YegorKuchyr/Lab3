@@ -1,0 +1,11 @@
+Source: myproject
+Section: utils
+Priority: optional
+Maintainer: Yegor <broniga3006@gmail.com>
+Build-Depends: debhelper (>= 12), g++, make
+Standards-Version: 4.5.0
+
+Package: myproject
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Simple C++ project
